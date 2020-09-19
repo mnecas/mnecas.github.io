@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>VUT paragraf drill</title>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <style>
+        .container2 {
+            padding: 0.8em;
+        }
+        .btn {
+            width: 80%;
+            background: grey;
+        }
+    </style>
+</head>
+
+<nav class="teal lighten-2" role="navigation">
+    <div class="nav-wrapper container hide-on-med-and-down">
+        <a id="logo-container" href="/" class="brand-logo">VUT paragraf drill</a>
+    </div>
+
+    <div class="nav-wrapper show-on-med-and-down">
+      <a href="/" class="brand-logo"></a> <!-- wudiam was here!!  ty for bug-->
+      <a href="/" data-target="mobile-demo" class="sidenav-trigger">
+      	<i class="material-icons">VUT paragraf drill</i></a>
+    </div>
+</nav>
+
+<body>
+    <div class="container">
+        <div class="center-align">
+
+            <div class="container2">
+                <h3 class="question">Some question 1</h3>
+            </div>
+            
+            <div class="container2">
+                <a class="waves-effect btn-large btn btn1" onclick="answer(this)">1</a>
+            </div>
+            <div class="container2">
+                <a class="waves-effect btn-large btn btn2" onclick="answer(this)">2</a>
+            </div>
+            <div class="container2">
+                <a class="waves-effect btn-large btn btn3" onclick="answer(this)">3</a>
+            </div>
+            
+            <div class="row container2">
+                <div class="col s6">
+                    <a class="waves-effect waves-light btn-large" onclick="previous()">Previous</a>
+                </div>
+                <div class="col s6">
+                    <a class="waves-effect waves-light btn-large" onclick="next()">Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    var data;
+    var question_id = 0;
+    fetch('data.json')
+        .then(response => response.json())
+        .then(save => data=save);
+    function answer(obj){
+        var t = $(obj).text();
+        if(data[question_id]['answer'] == t){
+            $(obj).css("background-color", "green");
+        }else{
+            $(obj).css("background-color", "red");
+        }
+    }
+    function previous(){
+        question_id = question_id - 1;
+        if(question_id<0){
+            question_id = data.length - 1;
+        }
+        update()
+
+    }
+    function next(){
+        question_id = question_id + 1;
+        if(question_id>=data.length){
+            question_id = 0;
+        }
+        update()
+    }
+    function update(){
+        $("h3.question").text(data[question_id]['question'])
+        $("a.btn1").text(data[question_id]['options'][0])
+        $("a.btn2").text(data[question_id]['options'][1])
+        $("a.btn3").text(data[question_id]['options'][2])
+        $("a.btn").css("background-color", "grey");
+    }
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</script>
+</html>
