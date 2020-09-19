@@ -1,38 +1,38 @@
 [
     {
-        "question": "Some question 1",
-        "answer": "2",
+        "question": "Rozdělení EZ podle napětí mezi vodiči v uzemněné střídavé soustavě je: ",
+        "answer": " mn do 50 V; nn do 1000 V; vn do 52 kV",
         "options": [
-            "1",
-            "2",
-            "3"
+            "mn do 25 V; nn do 500 V; vn do 52 kV",
+            "mn do 50 V; nn do 1000 V; vn do 52 kV",
+            "mn do 230V; nn do 24 kV; vn do 52 kV"
         ]
     },
     {
-        "question": "Some question 2",
-        "answer": "2",
+        "question": "Jmenovité napětí střídavých rozvodných sítí v ČR je:",
+        "answer": "230/400 V",
         "options": [
-            "1",
-            "2",
-            "3"
+            "230/400 V",
+            "120/300 V",
+            "12/24 V"
         ]
     },
     {
-        "question": "Some question 3",
-        "answer": "2",
+        "question": "Mez bezpečných jmenovitých napětí při předpokládaném dotyku neživých částí v prostorech normálních je:",
+        "answer": "50 V~ a 120 V=",
         "options": [
-            "1",
-            "2",
-            "3"
+            "25 V~ a 120 V=",
+            "50 V~ a 120 V=",
+            "60 V~ a 60 V="
         ]
     },
     {
-        "question": "Some question 4",
-        "answer": "2",
+        "question": "Dovolené meze trvalého dotykového napětí v prostorech normálních i nebezpečných pro EZ do 1000 V jsou:",
+        "answer": "25 V~ a 60 V=",
         "options": [
-            "1",
-            "2",
-            "3"
+            "50 V~ a 120 V=",
+            "25 V~ a 60 V=",
+            "12 V~ a 24 V="
         ]
     }
 ]
