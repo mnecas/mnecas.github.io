@@ -208,7 +208,7 @@
     },
     {
         "question": "Pro ochranu omezením ustáleného proudu a náboje nesmí náboj mezi částmi současně přístupnými dotyku překročit hodnotu:",
-        "answer": "AAAA",
+        "answer": "50 µC",
         "options": [
             "50 µC",
             "500 µC",
