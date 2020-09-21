@@ -9,11 +9,19 @@
     <style>
         .container2 {
             padding: 0.8em;
+	        overflow: visible;
         }
-        .btn {
+        .my_btn {
             width: 80%;
             background: grey;
             text-transform: none;
+            color: white;
+            padding: 1em;
+        }
+        .my_btn_send {
+            width: 100%;
+            color: white;
+            padding: 0em;
         }
     </style>
 </head>
@@ -39,24 +47,24 @@
             </div>
             
             <div class="container2">
-                <a class="waves-effect btn-large btn btn1" onclick="answer(this)">mn do 25 V; nn do 500 V; vn do 52 kV</a>
+                <a class="waves-effect my_btn btn1" onclick="answer(this)">mn do 25 V; nn do 500 V; vn do 52 kV</a>
             </div>
             <div class="container2">
-                <a class="waves-effect btn-large btn btn2" onclick="answer(this)">mn do 50 V; nn do 1000 V; vn do 52 kV</a>
+                <a class="waves-effect my_btn btn2" onclick="answer(this)">mn do 50 V; nn do 1000 V; vn do 52 kV</a>
             </div>
             <div class="container2">
-                <a class="waves-effect btn-large btn btn3" onclick="answer(this)">mn do 230V; nn do 24 kV; vn do 52 kV</a>
+                <a class="waves-effect my_btn btn3" onclick="answer(this)">mn do 230V; nn do 24 kV; vn do 52 kV</a>
             </div>
             
             <div class="row container2">
                 <div class="col s4">
-                    <a class="waves-effect waves-light btn-large" onclick="previous()">Previous</a>
+                    <a class="waves-effect waves-light btn-large my_btn_send" onclick="previous()">Previous</a>
                 </div>
                 <div class="col s4">
-                    <a class="waves-effect waves-light btn-large" onclick="random()">Random</a>
+                    <a class="waves-effect waves-light btn-large my_btn_send" onclick="random()">Random</a>
                 </div>
                 <div class="col s4">
-                    <a class="waves-effect waves-light btn-large" onclick="next()">Next</a>
+                    <a class="waves-effect waves-light btn-large my_btn_send" onclick="next()">Next</a>
                 </div>
             </div>
         </div>
