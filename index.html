@@ -106,10 +106,12 @@
         update()
     }
     function update(){
+        var lst = data[question_id]['options']
+        lst.sort(() => Math.random() -0.5)
         $("h4.question").text(data[question_id]['question'])
-        $("a.btn1").text(data[question_id]['options'][0])
-        $("a.btn2").text(data[question_id]['options'][1])
-        $("a.btn3").text(data[question_id]['options'][2])
+        $("a.btn1").text(lst[0])
+        $("a.btn2").text(lst[1])
+        $("a.btn3").text(lst[2])
         $("a.my_btn").css("background-color", "grey");
     }
 </script>
