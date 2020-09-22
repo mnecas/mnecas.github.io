@@ -43,7 +43,7 @@
         <div class="center-align">
 
             <div class="container2">
-                <h4 class="question">Rozdělení EZ podle napětí mezi vodiči v uzemněné střídavé soustavě je:</h4>
+                <h4 class="question">1. Rozdělení EZ podle napětí mezi vodiči v uzemněné střídavé soustavě je:</h4>
             </div>
             
             <div class="container2">
@@ -108,7 +108,7 @@
     function update(){
         var lst = data[question_id]['options']
         lst.sort(() => Math.random() -0.5)
-        $("h4.question").text(data[question_id]['question'])
+        $("h4.question").text(question_id+1 + ". " + data[question_id]['question'])
         $("a.btn1").text(lst[0])
         $("a.btn2").text(lst[1])
         $("a.btn3").text(lst[2])
