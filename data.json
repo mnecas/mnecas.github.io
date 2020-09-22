@@ -592,5 +592,41 @@
             "20 stlačení a 2 vdechy",
             "30 stlačení a 2 vdechy"
         ]
+    },
+    {
+        "question": "Pro automatické odpojení od zdroje v síti TT 230 V AC, zajišťující ochranu před nepřímým dotykem koncového obvodu do 32 A, musí ochranný prvek vypnout v čase do:",
+        "answer": "0.2 s",
+        "options": [
+            "0.2 s",
+            "1 s",
+            "2 s"
+        ]
+    },
+    {
+        "question": "Pro automatické odpojení od zdroje v síti TN 230 V AC, zajišťující ochranu před nepřímým dotykem koncového obvodu do 32 A, musí ochranný prvek vypnout v čase do:",
+        "answer": "0.4 s",
+        "options": [
+            "0.2 s",
+            "0.4 s",
+            "1 s"
+        ]
+    },
+    {
+        "question": "Proudové chrániče s rozdílovým proudem do 30 mA se musí požít na:",
+        "answer": "Zásuvky se jmenovitým proudem do 32 A, které jsou používány laiky",
+        "options": [
+            "Zásuvky se jmenovitým proudem do 64 A, které jsou používány laiky",
+            "Zásuvky se jmenovitým proudem do 16 A, které jsou používány laiky",
+            "Zásuvky se jmenovitým proudem do 32 A, které jsou používány laiky"
+        ]
+    },
+    {
+        "question": "Automatický externí defibrilátor použijeme v případě:",
+        "answer": "Zástavy dechu postiženého",
+        "options": [
+            "Když postižený neodpovídá",
+            "Omdlení postiženého",
+            "Zástavy dechu postiženého"
+        ]
     }
 ]
