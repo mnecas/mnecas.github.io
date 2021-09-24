@@ -121,7 +121,7 @@
         "answer": "Stupeň ochrany před nebezpečným dotykem a vniknutím cizích pevných těles",
         "options": [
             "Stupeň ochrany před vniknutí bez kíče či nástroje",
-            "Stupeň ochrany před nebezpečným dotykem a vniknutím cizích pevných těles",
+            "Stupeň ochrany osob před nebezpečným dotykem živých částí a stupeň ochrany zařízení před vniknutím cizích pevných těles",
             "Stupeň ochrany před vlhkostí, vody a korozí"
         ]
     },
@@ -150,6 +150,15 @@
             "nepřesahující 5 s",
             "nepřesahující 0.5 s",
             "nepřesahující 2 s"
+        ]
+    },
+    {
+        "question": "Doplňkovou ochranu proudovým chráničem lze realizovat:",
+        "answer": "chráničem se jmenovitým rozdílovým proudem nejvýše 30 mA",
+        "options": [
+            "chráničem s napětím nejvýše 230V",
+            "chráničem se jmenovitým rozdílovým proudem nejvýše 30 mA",
+            "chráničem se jmenovitým rozdílovým proudem nejvýše 10 mA"
         ]
     },
     {
@@ -501,6 +510,15 @@
             "Měřicí přístroje, zkoušečky napětí a další předměty potřebné k práci či obsluze EZ",
             "Ochranné izolační rukavice, izolační koberce a plošiny, ochranné brýle apod.",
             "Suché oblečení"
+        ]
+    },
+    {
+        "question": "Ochrannými pomůckami jsou například:",
+        "answer": "Ochranné izolační rukavice, izolační koberce a plošiny, ochranné brýle apod.",
+        "options": [
+            "Měřicí přístroje, zkoušečky napětí a další předměty potřebné k práci či obsluze EZ",
+            "Náhradní pojistky",
+            "Ochranné izolační rukavice, izolační koberce a plošiny, ochranné brýle apod."
         ]
     },
     {
