@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <title>VUT Paragraf drill</title>
+    <title>VUT FEKT DRILL</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <style>
@@ -18,104 +18,30 @@
             color: white;
             padding: 1em;
         }
-        .my_btn_send {
-            width: 100%;
-            color: white;
-            padding: 0em;
+        .main_color {
+            background: #1e88e5
         }
     </style>
 </head>
 
-<nav class="teal lighten-2" role="navigation">
-    <div class="nav-wrapper container hide-on-med-and-down">
-        <a id="logo-container" href="/" class="brand-logo">VUT Paragraf drill</a>
+<nav class="main_color" role="navigation">
+    <div class="container nav-wrapper hide-on-med-and-down">
+        <a id="logo-container" href="/" class="brand-logo">VUT FEKT DRILL</a>
     </div>
-
     <div class="nav-wrapper show-on-med-and-down">
-      <a href="/" class="brand-logo"></a>
-      <a href="/" data-target="mobile-demo" class="sidenav-trigger">
-        <i class="material-icons">VUT Paragraf drill</i></a>
+        <a id="logo-container" href="/" class="brand-logo">VUT FEKT DRILL</a>
     </div>
 </nav>
 
 <body>
     <div class="container">
         <div class="center-align">
-
             <div class="container2">
-                <h4 class="question">1. Rozdělení EZ podle napětí mezi vodiči v uzemněné střídavé soustavě je:</h4>
-            </div>
-            
-            <div class="container2">
-                <a class="waves-effect my_btn btn1" onclick="answer(this)">mn do 25 V; nn do 500 V; vn do 52 kV</a>
-            </div>
-            <div class="container2">
-                <a class="waves-effect my_btn btn2" onclick="answer(this)">mn do 50 V; nn do 1000 V; vn do 52 kV</a>
-            </div>
-            <div class="container2">
-                <a class="waves-effect my_btn btn3" onclick="answer(this)">mn do 230V; nn do 24 kV; vn do 52 kV</a>
-            </div>
-            
-            <div class="row container2">
-                <div class="col s4">
-                    <a class="waves-effect waves-light btn-large my_btn_send" onclick="previous()">Previous</a>
-                </div>
-                <div class="col s4">
-                    <a class="waves-effect waves-light btn-large my_btn_send" onclick="random()">Random</a>
-                </div>
-                <div class="col s4">
-                    <a class="waves-effect waves-light btn-large my_btn_send" onclick="next()">Next</a>
-                </div>
+                <a class="waves-effect my_btn btn1" href='drill.html?data=paragraf4.json'>Paragraf 4</a>
             </div>
         </div>
     </div>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<script>
-    var data;
-    var question_id = 0;
-    fetch('data.json')
-        .then(response => response.json())
-        .then(save => data=save);
-    function answer(obj){
-        var t = $(obj).text();
-        if(data[question_id]['answer'] == t){
-            $(obj).css("background-color", "green");
-        }else{
-            $(obj).css("background-color", "red");
-        }
-    }
-    function previous(){
-        question_id = question_id - 1;
-        if(question_id<0){
-            question_id = data.length - 1;
-        }
-        update()
-
-    }
-    function random(){
-        question_id = Math.floor(Math.random() * data.length);
-        update()
-    }
-    function next(){
-        question_id = question_id + 1;
-        if(question_id>=data.length){
-            question_id = 0;
-        }
-        update()
-    }
-    function update(){
-        var lst = data[question_id]['options']
-        lst.sort(() => Math.random() -0.5)
-        $("h4.question").text(question_id+1 + ". " + data[question_id]['question'])
-        $("a.btn1").text(lst[0])
-        $("a.btn2").text(lst[1])
-        $("a.btn3").text(lst[2])
-        $("a.my_btn").css("background-color", "grey");
-    }
-</script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </script>
 </html>
