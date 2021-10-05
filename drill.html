@@ -99,10 +99,14 @@
         }); 
     function answer(obj){
         var t = $(obj).text();
-        if(data[question_id]['answer'] == t){
-            $(obj).css("background-color", "green");
-        }else{
-            $(obj).css("background-color", "red");
+        for(let i=0;i<data[question_id]['answers'].length;i++){
+            if(data[question_id]['answers'][i]['text']==t){
+                if(data[question_id]['answers'][i]['right']){
+                    $(obj).css("background-color", "green");
+                }else{
+                    $(obj).css("background-color", "red");
+                }
+            }
         }
     }
     function previous(){
@@ -125,7 +129,7 @@
         update()
     }
     function update(){
-        var lst = data[question_id]['options']
+        var lst = data[question_id]['answers'].map(x => x['text'])
         lst.sort(() => Math.random() - 0.5)
         $("h4.question").text(question_id + 1 + ". " + data[question_id]['question'])
         answer_btns = $("div.answer_btns")
