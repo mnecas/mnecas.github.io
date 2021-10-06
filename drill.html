@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>VUT FEKT DRILL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <style>
+        .container2 {
+            padding: 0.8em;
+	        overflow: visible;
+        }
+        .my_btn {
+            width: 80%;
+            background: grey;
+            text-transform: none;
+            color: white;
+            padding: 1em;
+        }
+        .my_btn_send {
+            width: 100%;
+            color: white;
+            padding: 0em;
+            background: #1e88e5;
+        }
+        .main_color {
+            background: #1e88e5
+        }
+    </style>
+</head>
+
+<nav class='main_color'>
+    <div class="nav-wrappe">
+        <a href="/" class="brand-logo center">VUT FEKT DRILL</a>
+        <ul id="nav-mobile" class="right">
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<body>
+
+    <div class="center-align spinner">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                    <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="center-align">
+            <div class="drill" style="display: none">
+                <div class="container2">
+                    <h4 class="question"></h4>
+                </div>
+                <div class="answer_btns">
+                </div>
+                <div class="row container2">
+                    <div class="col s4">
+                        <a class="waves-effect waves-light btn-large my_btn_send" onclick="previous()">Previous</a>
+                    </div>
+                    <div class="col s4">
+                        <a class="waves-effect waves-light btn-large my_btn_send" onclick="random()">Random</a>
+                    </div>
+                    <div class="col s4">
+                        <a class="waves-effect waves-light btn-large my_btn_send" onclick="next()">Next</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    var data;
+    var question_id = 0;
+    var data_name = location.search.split('data=')[1]
+    fetch('data/' + data_name)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(json){
+            $("div.drill").css("display", "inline");
+            $("div.spinner").css("display", "none");
+            data = json;
+            update()
+        })
+        .catch(function(err) {
+            console.log(`Error: ${err}` )
+        }); 
+    function answer(obj){
+        var t = $(obj).text();
+        for(let i=0;i<data[question_id]['answers'].length;i++){
+            if(data[question_id]['answers'][i]['text']==t){
+                if(data[question_id]['answers'][i]['right']){
+                    $(obj).css("background-color", "green");
+                }else{
+                    $(obj).css("background-color", "red");
+                }
+            }
+        }
+    }
+    function previous(){
+        question_id = question_id - 1;
+        if(question_id<0){
+            question_id = data.length - 1;
+        }
+        update()
+
+    }
+    function random(){
+        question_id = Math.floor(Math.random() * data.length);
+        update()
+    }
+    function next(){
+        question_id = question_id + 1;
+        if(question_id>=data.length){
+            question_id = 0;
+        }
+        update()
+    }
+    function update(){
+        var lst = data[question_id]['answers'].map(x => x['text'])
+        lst.sort(() => Math.random() - 0.5)
+        $("h4.question").text(question_id + 1 + ". " + data[question_id]['question'])
+        answer_btns = $("div.answer_btns")
+        // Clean previous answers
+        answer_btns[0].innerHTML = ''
+        // Insert answer buttons depending on the answers length
+        for(let i = 0; i<lst.length; i++){
+            answer_btns[0].insertAdjacentHTML('beforeend', "<div class='container2'><a class='waves-effect my_btn' onclick='answer(this)'>"+lst[i]+"</a></div>")
+        }
+        $("a.my_btn").css("background-color", "grey");
+    }
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</script>
+</html>
