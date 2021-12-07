@@ -1,0 +1,842 @@
+[
+   {
+      "question": "Robbins definuje plánování jako proces, ve kterém",
+      "answers": [
+         {
+            "text": "jsou definovány cíle organizace, formulovány strategie/postupy jejich dosažení a vytvoření souboru plánů pro koordinování činností organizace",
+            "right": true
+         },
+         {
+            "text": "jsou definovány cíle organizace a nejsou formulovány žádné podnikové strategie",
+            "right": false
+         },
+         {
+            "text": "jsou definovány cíle organizace, formulovány strategie/postupy jejich dosažení a vytvoření souborů plánů pro odstraňování chybných činností organizace",
+            "right": false
+         },
+         {
+            "text": "Robbins proces plánování nedefinuje",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Cílem se rozumí",
+      "answers": [
+         {
+            "text": "splnění plánovaných činností",
+            "right": false
+         },
+         {
+            "text": "vytvoření firemní strategie",
+            "right": false
+         },
+         {
+            "text": "předpokládané výsledky jednotlivců",
+            "right": false
+         },
+         {
+            "text": "předpokládané výsledky jednotlivců, skupin i celé organizace",
+            "right": true
+         }
+      ]
+   },
+   {
+      "question": "Pojem plán vymezuje",
+      "answers": [
+         {
+            "text": "dokumenty popisující dosažení cílů",
+            "right": true
+         },
+         {
+            "text": "dokumenty nepopisující dosažení cílů",
+            "right": false
+         },
+         {
+            "text": "procesy popisující dosažení cílů",
+            "right": false
+         },
+         {
+            "text": "procesy nepopisující dosažení cílů",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Firemní strategie vymezuje",
+      "answers": [
+         {
+            "text": "krátkodobé základní cíle firmy a stanoví nezbytné činnosti a zdroje pro dosažení těchto cílů",
+            "right": false
+         },
+         {
+            "text": "dlouhodobé základní cíle firmy a stanoví nezbytné činnosti a zdroje pro dosažení těchto cílů",
+            "right": true
+         },
+         {
+            "text": "střednědobé základní cíle firmy a stanoví nezbytné činnosti a zdroje pro dosažení těchto cílů",
+            "right": false
+         },
+         {
+            "text": "základní cíle firmy a stanoví nezbytné činnosti a zdroje pro dosažení těchto cílů",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Kolik kroků (podle Koontze) zahrnuje základní postup plánování?",
+      "answers": [
+         {
+            "text": "12",
+            "right": false
+         },
+         {
+            "text": "10",
+            "right": false
+         },
+         {
+            "text": "4",
+            "right": false
+         },
+         {
+            "text": "8",
+            "right": true
+         }
+      ]
+   },
+   {
+      "question": "Co poskytuje plán?",
+      "answers": [
+         {
+            "text": "pohled na cestu k vytyčenému cíli",
+            "right": false
+         },
+         {
+            "text": "určení dlouhodobých základních cílů a stanovení nezbytných činností a zdrojů pro dosažení těchto cílů",
+            "right": false
+         },
+         {
+            "text": "obrázek o tom, co se dělá",
+            "right": false
+         },
+         {
+            "text": "racionální výběr mezi možnostmi budoucího průběhu činností",
+            "right": true
+         }
+      ]
+   },
+   {
+      "question": "Mezi konkurenční výhody nepatří:",
+      "answers": [
+         {
+            "text": "Stanovení výhodnější ceny",
+            "right": false
+         },
+         {
+            "text": "Užitkové odlišení",
+            "right": false
+         },
+         {
+            "text": "Lepší dodací podmínky",
+            "right": false
+         },
+         {
+            "text": "Pozdní uvedení na trh",
+            "right": true
+         }
+      ]
+   },
+   {
+      "question": "Písmeno M v rámci SMART analýzy znamená:",
+      "answers": [
+         {
+            "text": "Movitý",
+            "right": false
+         },
+         {
+            "text": "Měřitelný",
+            "right": true
+         },
+         {
+            "text": "Měnitelný",
+            "right": false
+         },
+         {
+            "text": "Mírný",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Co není typem plánu?",
+      "answers": [
+         {
+            "text": "Porada",
+            "right": true
+         },
+         {
+            "text": "Strategie",
+            "right": false
+         },
+         {
+            "text": "Taktika",
+            "right": false
+         },
+         {
+            "text": "Rozpočet",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Který z níže uvedených nepatří mezi důvody, proč manažeři plánují",
+      "answers": [
+         {
+            "text": "plány do budoucnosti jsou obtížně definovatelné, v případě změn je nutné plány korigovat",
+            "right": true
+         },
+         {
+            "text": "plány snižují dopad změn - díky tomu, že se dívají dopředu, snižují nejistotu",
+            "right": false
+         },
+         {
+            "text": "plány zmenšují plýtvání, redukují překrývající se činnosti, eliminují se zbytečné činnosti",
+            "right": false
+         },
+         {
+            "text": "plány umožňují efektivní kontrolování - víme čeho chceme dosáhnout a můžeme si to zkontrolovat a případně napravit",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Robbins definuje organizování jako",
+      "answers": [
+         {
+            "text": "proces tvorby organizační struktury",
+            "right": true
+         },
+         {
+            "text": "proces tvorby specializace práce",
+            "right": false
+         },
+         {
+            "text": "proces tvorby firemní strategie a specializace práce",
+            "right": false
+         },
+         {
+            "text": "proces tvorby organizační struktury a firemní strategie",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Mezi proces delegování pravomoci nepatří",
+      "answers": [
+         {
+            "text": "delegování pravomoci pro určení výsledků, které jsou na určité pozici již splněny",
+            "right": true
+         },
+         {
+            "text": "delegování pravomoci pro splnění úkolů",
+            "right": false
+         },
+         {
+            "text": "určení osoby, která odpovídá za splnění úkolů na dané pozici",
+            "right": false
+         },
+         {
+            "text": "určení výsledků, které jsou na určité pozici očekávány",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Organizační struktura bývá definována jako",
+      "answers": [
+         {
+            "text": "formalizovaný systém, v jehož rámci jsou úkoly (práce) rozděleny, seskupeny a koordinovány",
+            "right": true
+         },
+         {
+            "text": "neformalizovaný systém, v jehož rámci jsou úkoly (práce) rozděleny, seskupeny a koordinovány",
+            "right": false
+         },
+         {
+            "text": "jednotný neformalizovaný systém, v jehož rámci jsou úkoly (práce) rozděleny, seskupeny a koordinovány",
+            "right": false
+         },
+         {
+            "text": "neformalizovaný, decentralizovaný systém, v jehož rámci jsou úkoly (práce) rozděleny, seskupeny a koordinovány",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Mezi nejčastěji rozlišované typy organizačních struktur nepatří",
+      "answers": [
+         {
+            "text": "krabicová OS",
+            "right": true
+         },
+         {
+            "text": "divizionální OS",
+            "right": false
+         },
+         {
+            "text": "maticová OS",
+            "right": false
+         },
+         {
+            "text": " funkcionální OS",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "O vztahu nadřízenosti a podřízenosti platí",
+      "answers": [
+         {
+            "text": "Jsou to činitelé, které činí organizační strukturu společnosti funkční.",
+            "right": true
+         },
+         {
+            "text": "Vztahy nadřízenosti a podřízenosti sice usnadňují organizačním jednotkám vykonávání činností, vnášejí však do společnosti špatnou koordinaci činností.",
+            "right": false
+         },
+         {
+            "text": "Tyto vztahy lze považovat za podružné organizační vztahy.",
+            "right": false
+         },
+         {
+            "text": "Používání těchto vztahů se nedoporučuje, vnášejí totiž zmatek do činností vykonávaných ve společnosti.",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Pro divizionální organizační strukturu je charakteristické:",
+      "answers": [
+         {
+            "text": "Bývá orientována produktově, regionálně, procesně apod.",
+            "right": true
+         },
+         {
+            "text": "Je nevhodná k implementaci v rámci ČR",
+            "right": false
+         },
+         {
+            "text": "Členové organizace jsou charakterističtí velmi nízkou odbornost",
+            "right": false
+         },
+         {
+            "text": "Uplatňuje se zejména v rámci menších organizací",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Pro maticovou organizační strukturu je charakteristická",
+      "answers": [
+         {
+            "text": " Je schopna generovat pracovní týmy pro řešení firemních projektů",
+            "right": true
+         },
+         {
+            "text": "Je nevhodná k implementaci v rámci ČR",
+            "right": false
+         },
+         {
+            "text": "Členové organizace jsou charakterističtí nízkou odbornost",
+            "right": false
+         },
+         {
+            "text": "Uplatňuje se často v rámci menších organizací",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "8. Co nepatří mezi funkce organizování?",
+      "answers": [
+         {
+            "text": "Delegování odpovědnosti",
+            "right": true
+         },
+         {
+            "text": "Specializování prac",
+            "right": false
+         },
+         {
+            "text": "Delegování pravomocí",
+            "right": false
+         },
+         {
+            "text": "Vytváření organizačních jednotek",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Co neplatí pro vztahy nadřízenosti a podřízenosti?",
+      "answers": [
+         {
+            "text": "Vnáší do společnosti harmoni",
+            "right": true
+         },
+         {
+            "text": "Jsou to základní organizační vztahy",
+            "right": false
+         },
+         {
+            "text": "Činí organizační strukturu funkční",
+            "right": false
+         },
+         {
+            "text": "Usnadňují organizačním jednotkám vykonávání činností",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Co nezahrnuje proces delegování pravomoci?",
+      "answers": [
+         {
+            "text": "Určení odpovědnosti a finančního či nefinančního postihu pro pozici, které byla pravomoc delegován",
+            "right": true
+         },
+         {
+            "text": "Určení výsledků, které jsou na určité pozici, kam je pravomoc delegována, očekávány.",
+            "right": false
+         },
+         {
+            "text": "Určení úkolů pro pozici, které je pravomoc delegována",
+            "right": false
+         },
+         {
+            "text": "Určení osoby, která odpovídá za splnění úkolů na pozici, kam byla delegována pravomoc.",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Leadership v užším významu nelze chápat jako",
+      "answers": [
+         {
+            "text": "uplatňování vlivu jednoho člověka na druhé",
+            "right": true
+         },
+         {
+            "text": "odstraňování vnitřních překážek",
+            "right": false
+         },
+         {
+            "text": "dodávání mentální energie",
+            "right": false
+         },
+         {
+            "text": "objevování a snižování potenciálu lidí",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Pojem vedení znamená",
+      "answers": [
+         {
+            "text": "proces, jímž se jeden jedinec snaží ovlivnit jedince jiné",
+            "right": true
+         },
+         {
+            "text": "proces, jímž se skupina jedinců snaží ovlivnit jednoho jedince",
+            "right": false
+         },
+         {
+            "text": "synonymum pro management",
+            "right": false
+         },
+         {
+            "text": "synonymum pro řízení",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Mezi role manažera týmu nepatří",
+      "answers": [
+         {
+            "text": "plánovač a kontrolor",
+            "right": true
+         },
+         {
+            "text": "administrátor a rádce",
+            "right": false
+         },
+         {
+            "text": "rádce a leader",
+            "right": false
+         },
+         {
+            "text": "leader a administrátor",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Co je to motivace?",
+      "answers": [
+         {
+            "text": "vnitřní popud působící směrem k vytyčenému cíli",
+            "right": true
+         },
+         {
+            "text": "vnější pohnutka podněcující jednání člověku",
+            "right": false
+         },
+         {
+            "text": "vnitřní působení vnímání člověka",
+            "right": false
+         },
+         {
+            "text": "soubor vnějších podnětů (pobídek) usměrňujících jednání pracovníků a působících na jejich motivaci",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Co je to stimulace?",
+      "answers": [
+         {
+            "text": "soubor vnějších podnětů (pobídek) usměrňujících jednání pracovníků a působících na jejich motivaci",
+            "right": true
+         },
+         {
+            "text": "vnitřní popud působící směrem k vytyčenému cíli",
+            "right": false
+         },
+         {
+            "text": "ovlivňování jednání pracovníků prostřednictvím citového vydírání",
+            "right": false
+         },
+         {
+            "text": "soubor vnitřních podnětů, které ovlivňují jednání pracovníků tím, že jim ukazují, co je pro ně dobré",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Jaký je smysl používání stimulů?",
+      "answers": [
+         {
+            "text": "podnítit u pracovníka určitou aktivitu nebo ji omezit",
+            "right": true
+         },
+         {
+            "text": "potlačit u pracovníka chuť vykonávat práci",
+            "right": false
+         },
+         {
+            "text": "říci zaměstnancům, co mají dělat",
+            "right": false
+         },
+         {
+            "text": "ukázat, jaký obnos si může pracovník vydělat",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Mezi znaky integrity nepatří:",
+      "answers": [
+         {
+            "text": "Latentní chování",
+            "right": true
+         },
+         {
+            "text": "Čestné jednání",
+            "right": false
+         },
+         {
+            "text": "Předvídatelné reakce",
+            "right": false
+         },
+         {
+            "text": "Kontrolované emoce",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Tým je charakterizován:",
+      "answers": [
+         {
+            "text": "Členové sledují společný cíl",
+            "right": true
+         },
+         {
+            "text": "Nekooridinované vazby",
+            "right": false
+         },
+         {
+            "text": "Členové nekoordinují své rozhodnutí",
+            "right": false
+         },
+         {
+            "text": "Všichni sledují vlastní cíle",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Rolí manažera týmu není",
+      "answers": [
+         {
+            "text": "Ředitel",
+            "right": true
+         },
+         {
+            "text": "Leader",
+            "right": false
+         },
+         {
+            "text": "Trenér",
+            "right": false
+         },
+         {
+            "text": "Rádce",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Mezi kategorie rolí člena týmu nepatří",
+      "answers": [
+         {
+            "text": "Role vzhledem k činnosti",
+            "right": true
+         },
+         {
+            "text": "Role vzhledem k úkolu",
+            "right": false
+         },
+         {
+            "text": "Role vzhledem k udržení týmu",
+            "right": false
+         },
+         {
+            "text": "Individuální negativní role",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Robbins definuje kontrolu jako",
+      "answers": [
+         {
+            "text": "proces monitorování aktivit s cílem zajistit, že budou provedeny podle plánu a že budou opraveny významnější odchylky",
+            "right": true
+         },
+         {
+            "text": "proces monitorování aktivit s cílem zajistit, že budou provedeny podle plánu",
+            "right": false
+         },
+         {
+            "text": "proces monitorování aktivit se strategií zajistit kladný hospodářský výsledek",
+            "right": false
+         },
+         {
+            "text": "proces monitorování aktivit se strategií zajistit jakýkoli hospodářský výsledek",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Kontrolní proces zahrnuje",
+      "answers": [
+         {
+            "text": "tři kroky – měření skutečné výkonnosti, porovnání výkonnosti se standardem a provedení korektivních opatření v případě odchylek od standardů",
+            "right": true
+         },
+         {
+            "text": "tři kroky – měření skutečné výkonnosti, porovnání výkonnosti se standardem a k provedení korektivních opatření nedochází",
+            "right": false
+         },
+         {
+            "text": " dva kroky – měření skutečné výkonnosti a provedení korektivních opatření v případě odchylek od standardů",
+            "right": false
+         },
+         {
+            "text": "dva kroky – měření skutečné výkonnosti a porovnání výkonnosti se standardem",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Mezi typy kontroly nepatří",
+      "answers": [
+         {
+            "text": "dodatečná",
+            "right": true
+         },
+         {
+            "text": "předběžná",
+            "right": false
+         },
+         {
+            "text": "souběžná",
+            "right": false
+         },
+         {
+            "text": "následná",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Následná kontrola se provádí",
+      "answers": [
+         {
+            "text": "po skončení procesů",
+            "right": true
+         },
+         {
+            "text": "kdykoli v průběhu procesů",
+            "right": false
+         },
+         {
+            "text": "souběžně se započetím procesů",
+            "right": false
+         },
+         {
+            "text": "před započetím procesů",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Kontrola probíhá na následujících úrovních managementu",
+      "answers": [
+         {
+            "text": "na všech úrovních podniku",
+            "right": true
+         },
+         {
+            "text": "zejména operativní úrovni",
+            "right": false
+         },
+         {
+            "text": "pouze na strategické úrovni",
+            "right": false
+         },
+         {
+            "text": "výhradně na taktické úrovni",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Co je benchmarking?",
+      "answers": [
+         {
+            "text": "Srovnávání",
+            "right": true
+         },
+         {
+            "text": "Vyrovnávání",
+            "right": false
+         },
+         {
+            "text": "Kontrolování",
+            "right": false
+         },
+         {
+            "text": "Označování",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Který z následujících pojmů nepatří mezi označení běžně uznávaných typů kontrol?",
+      "answers": [
+         {
+            "text": "Disfunkční",
+            "right": true
+         },
+         {
+            "text": "Následná",
+            "right": false
+         },
+         {
+            "text": "Průběžná",
+            "right": false
+         },
+         {
+            "text": "Předběžná",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Co je to kontrola?",
+      "answers": [
+         {
+            "text": "Je proces monitorování činností, jehož cílem je zjistit, zda byly provedeny podle plánu a opravit závažné odchylky.",
+            "right": true
+         },
+         {
+            "text": "Představuje snahu zmapovat všechny činnosti v podniku.",
+            "right": false
+         },
+         {
+            "text": "Umožňuje dosahování cílů s pomocí dobrého vedením manažerem.",
+            "right": false
+         },
+         {
+            "text": "Je proces vedoucí vytvoření pravidelných dodávek energií a výrobního materiálu.",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Základní kroky kontrolního procesu jsou:",
+      "answers": [
+         {
+            "text": "Měření skutečné výkonnosti – porovnání výkonnosti se standardem – provedení korektivních opatření v případě odchylek od standardů",
+            "right": true
+         },
+         {
+            "text": "Měření všech činností – porovnání činností mezi zaměstnanci – provedení nápravných opatření",
+            "right": false
+         },
+         {
+            "text": " Měření spotřeby materiálu – porovnání mezd zaměstnanců – provedení srážek ze mzdy",
+            "right": false
+         },
+         {
+            "text": "Měření jakosti výrobků – porovnání výrobků – prodej výrobků",
+            "right": false
+         }
+      ]
+   },
+   {
+      "question": "Kterou z následujících oblastí se nezabývá následná kontrola",
+      "answers": [
+         {
+            "text": "Kontrolou vstupních materiálů",
+            "right": true
+         },
+         {
+            "text": "Výkonností pracovníků",
+            "right": false
+         },
+         {
+            "text": "Kontrolou jakosti finálního produktu",
+            "right": false
+         },
+         {
+            "text": "Analýzou nákladů",
+            "right": false
+         }
+      ]
+   }
+]
