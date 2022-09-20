@@ -51,7 +51,7 @@
        ]
     },
     {
-       "question":"Dovolené meze trvalého dotykového napětí v prostorech normálních i nebezpečných pro EZ do 1000 V jsou:",
+       "question":"Dovolené meze trvalého dotykového napětí v prostředí suchém pro EZ do 1000 V jsou:",
        "answers":[
           {
              "text":"50 V~ a 120 V=",
