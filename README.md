@@ -1,4 +1,4 @@
-# VUT FEKT paragraf drill
+# Drill
 
 This is drill to help with learning.
 
