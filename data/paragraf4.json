@@ -408,18 +408,18 @@
        ]
     },
     {
-       "question":"Pro ochranu omezením ustáleného proudu a náboje nesmí náboj mezi částmi současně přístupnými dotyku překročit hodnotu:",
+       "question":"Pro ochranu omezením ustáleného proudu a energie nesmí nahromaděná energie mezi částmi současně přístupnými dotyku překročit hodnotu:",
        "answers":[
           {
-             "text":"50 µC",
+             "text":"0,5 mJ",
              "right":true
           },
           {
-             "text":"500 µC",
+             "text":"5 mJ",
              "right":false
           },
           {
-             "text":"5 µC",
+             "text":"50 mJ",
              "right":false
           }
        ]
@@ -1202,6 +1202,23 @@
           },
           {
              "text":"Zásuvky se jmenovitým proudem do 32 A, které jsou používány laiky",
+             "right":true
+          }
+       ]
+    },
+    {
+       "question":"Automatický externí defibrilátor použijeme v případě:",
+       "answers":[
+          {
+             "text":"Když postižený neodpovídá",
+             "right":false
+          },
+          {
+             "text":"Omdlení postiženého",
+             "right":false
+          },
+          {
+             "text":"Zástavy dechu postiženého",
              "right":true
           }
        ]
