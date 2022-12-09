@@ -59,7 +59,8 @@
         <div class="center-align">
             <div class="drill" style="display: none">
                 <div class="container2">
-                    <h4 class="question"></h4>
+                    <h4 id="question"></h4>
+                    <img id="image"></h4>
                 </div>
                 <div class="answer_btns">
                 </div>
@@ -131,7 +132,12 @@
     function update(){
         var lst = data[question_id]['answers'].map(x => x['text'])
         lst.sort(() => Math.random() - 0.5)
-        $("h4.question").text(question_id + 1 + ". " + data[question_id]['question'])
+        $("#question").text(question_id + 1 + ". " + data[question_id]['question'])
+        let img_addr = ""
+        if(data[question_id]['image'] != undefined){
+            img_addr = data[question_id]['image']
+        }
+        $("#image").attr('src', img_addr)
         answer_btns = $("div.answer_btns")
         // Clean previous answers
         answer_btns[0].innerHTML = ''
