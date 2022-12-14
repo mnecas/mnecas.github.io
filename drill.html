@@ -60,7 +60,7 @@
             <div class="drill" style="display: none">
                 <div class="container2">
                     <h4 id="question"></h4>
-                    <img id="image"></h4>
+                    <img style="width:60%;" id="image"></h4>
                 </div>
                 <div class="answer_btns">
                 </div>
@@ -97,7 +97,29 @@
         })
         .catch(function(err) {
             console.log(`Error: ${err}` )
-        }); 
+        });
+
+    document.onkeydown = checkKey;
+
+    function checkKey(e) {
+        e = e || window.event;
+        if (e.keyCode == '38') {
+            // up arrow
+        }
+        else if (e.keyCode == '40') {
+            // down arrow
+            random()
+        }
+        else if (e.keyCode == '37') {
+            // left arrow
+            previous()
+        }
+        else if (e.keyCode == '39') {
+            // right arrow
+            next()
+        }
+    }
+
     function answer(obj){
         var t = $(obj).text();
         for(let i=0;i<data[question_id]['answers'].length;i++){
@@ -132,7 +154,7 @@
     function update(){
         var lst = data[question_id]['answers'].map(x => x['text'])
         lst.sort(() => Math.random() - 0.5)
-        $("#question").text(question_id + 1 + ". " + data[question_id]['question'])
+        $("#question").html(question_id + 1 + ". " + data[question_id]['question'])
         let img_addr = ""
         if(data[question_id]['image'] != undefined){
             img_addr = data[question_id]['image']
