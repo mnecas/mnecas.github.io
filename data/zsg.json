@@ -1987,6 +1987,7 @@
             },
             {
                 "text": "Převzorkování metodou nejbližšího souseda je nejkvalitnější z dnes známých metod",
+                "right": false
             }
         ]
     },
@@ -2071,7 +2072,7 @@
                 "text": "5500 K",
                 "right": false
             },
-             {
+            {
                 "text": "3000 K",
                 "right": false
             }
