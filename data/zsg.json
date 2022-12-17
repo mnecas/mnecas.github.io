@@ -285,7 +285,7 @@
         ]
     },
     {
-        "question": "Které slovo bude mít větší celkovou šířku při použití písma s kvalitním kerningem?",
+        "question": "Které slovo bude mít větší celkovou šířku při použití písma s kvalitním kerningme?",
         "answers": [
             {
                 "text": "V L T A V A",
@@ -298,7 +298,7 @@
         ]
     },
     {
-        "question": "Máme červený předmět. Jakou barvu jej budeme vnímat, okud na něj v tmavé místnosti posvítíme zeleným světlem? (<i>předpokládejte, že barvy předmětu i světla jsou velmi syté - čisté</i>)",
+        "question": "Máme červený předmět. Jakou barvu jej budeme vnímat, okud na něj v tmaé místnosti posvítíme zelenžm světlem? (<i>předpokládejte, že barvy předmětu i světla jsou velmi syté - čisté</i>)",
         "answers": [
             {
                 "text": "černou (předmět neuvidíme)",
@@ -332,6 +332,19 @@
             {
                 "text": "Pravda",
                 "right": false
+            }
+        ]
+    },
+    {
+        "question": "Racionálními Bézierovými křivkami je možné vymodelovat kružnici.",
+        "answers": [
+            {
+                "text": "Nepravda",
+                "right": false
+            },
+            {
+                "text": "Pravda",
+                "right": true
             }
         ]
     },
@@ -581,7 +594,7 @@
         ]
     },
     {
-        "question": "Vyberte pravdivá tvrzení o formátu JPEF? (multiple choice)",
+        "question": "Vyberte pravdivá tvrzení o formátu JPEG? (multiple choice)",
         "answers": [
             {
                 "text": "Umožňuje průhlednost (alfa-kanál)",
@@ -667,10 +680,10 @@
         ]
     },
     {
-        "question": "Vyberte pravdivá tvrzení: <i>Hloubka ostrosti vzroste, jestliže...</i> (multiple choice)",
+        "question": "Vyberte pravdivá tvrzení: <i>Hloubka ostrosti vzroste, jestliže...</i>",
         "answers": [
             {
-                "text": "použijeme snímaš s malou plochou (kompakt)",
+                "text": "použijeme snímač s malou plochou (kompakt)",
                 "right": true
             },
             {
@@ -898,6 +911,24 @@
         ]
     },
     {
+        "question": "Pro uložení následujícího obrázku je vhodné použít",
+        "image": "images/palm.png",
+        "answers": [
+            {
+                "text": "paletový bitmapový formát",
+                "right": false
+            },
+            {
+                "text": "přímý formát (bez palety)",
+                "right": false
+            },
+            {
+                "text": "vektorový formát",
+                "right": true
+            }
+        ]
+    },
+    {
         "question": "Na obrázku je znázorněn barevný model",
         "image": "images/hsb.png",
         "answers": [
@@ -953,7 +984,7 @@
         ]
     },
     {
-        "question": "Formát JPEG je při nastavení nejvyšší kvality (Q=100%)",
+        "question": "Formát JPEF je při nastavení nejvyšší kvality (Q=100%)",
         "answers": [
             {
                 "text": "neztrátový",
@@ -970,7 +1001,7 @@
         ]
     },
     {
-        "question": "Jaké úpravě obrazu odpovída vyobrazené nastavení Křivek? (multiple choice)",
+        "question": "Jaké úpravě obrazu odpovída vyobrazené nastavení Křivek?",
         "image": "images/krivky2.png",
         "answers": [
             {
@@ -1034,7 +1065,7 @@
         ]
     },
     {
-        "question": "Čím větší je fyzicky snímč fotoaparátu, tím (multiple choice)",
+        "question": "Čím větší je fyzicky snímč fotoaparátu, tím",
         "answers": [
             {
                 "text": "větší musí být rozměr optické soustavy",
@@ -1090,7 +1121,7 @@
         ]
     },
     {
-        "question": "Histogram vpravo vznikl z histogramu vlevo (multiple choice)",
+        "question": "Histogram vpravo vznikl z histogramu vlevo (mutliple choice)",
         "answers": [
             {
                 "text": "redukcí počtu barev",
@@ -1238,7 +1269,7 @@
         ]
     },
     {
-        "question": "Hloubka ostrosti vzroste, jestliže (multiple choice)",
+        "question": "Hloubka ostrosti vzroste, jestliže",
         "answers": [
             {
                 "text": "snížíme clonové číslo",
@@ -1591,7 +1622,7 @@
         ]
     },
     {
-        "question": "Jaký je tečný vektro Bézierovy kubiky (tj. n=3) v čase t=0, pokud víte, že řídící body jsou P0=[0,0], P1=[1,1], P2=[2,1], P3=[3,0]?",
+        "question": "Jaký je tečný vektor Bézierovy kubiky (tj. n=3) v čase t=0, pokud víte, že řídící body jsou P0=[0,0], P1=[1,1], P2=[2,1], P3=[3,0]?",
         "answers": [
             {
                 "text": "[1,0]",
@@ -1675,7 +1706,7 @@
         ]
     },
     {
-        "question": "Existují dvojce DCT koeficintů, které jsou vždy vzájemně komplexně sdružené",
+        "question": "Existují dvojice DCT koeficintů, které jsou vždy vzájemně komplexně sdružené",
         "answers": [
             {
                 "text": "Pravda",
@@ -1707,7 +1738,7 @@
     },
     {
         "question": "Rovnice na obrázku vyjadřuje pro <i>t</i> z intervalu [0,1]... (multiple choice)",
-        "image": "images/rovnice.png",
+        "image":"images/rovnice.png",
         "answers": [
             {
                 "text": "parabolu/kvadriku",
@@ -1812,7 +1843,7 @@
         ]
     },
     {
-        "question": "Formát GIF umožňuje ve srovnání s PNG-8 (multiple choice)",
+        "question": "Formát GIF umožňuje ve srovnání s PNG-8",
         "answers": [
             {
                 "text": "více stupňů prúhlednosti",
@@ -1846,10 +1877,10 @@
         ]
     },
     {
-        "question": "Predstavte si obraz šachovnice, kde jsou tedy na strídačku umístneny černé a bílé pixely. Dále si predstavme obrazový filtr rozmeru 3x3 pixely, který obsahuje všechny shodné hodnoty. Tento filtr aplikujeme (pomocí konvoluce) na obraz šachovnice. Výsledek filtrace je: (jedna odpoved sa nedala precitat) (multiple choice)",
+        "question": "Predstavte si obraz šachovnice, kde jsou tedy na strídačku umístneny černé a bílé pixely. Dále si predstavme obrazový filtr rozmeru 3x3 pixely, který obsahuje všechny shodné hodnoty. Tento filtr aplikujeme (pomocí konvoluce) na obraz šachovnice. Výsledek filtrace je: (jedna odpoved sa nedala precitat)",
         "answers": [
             {
-                "text": "obraz obsahujíci pouze 2 možné hodnoty (ak je otazka SINGLE CHOICE, TOTO je SPRAVNA odpoved; zdroj=2016/17)",
+                "text": "obraz obsahujéci pouze 2 možné hodnoty",
                 "right": false
             },
             {
@@ -1861,13 +1892,13 @@
                 "right": false
             },
             {
-                "text": "obraz obsahujíci jedinou možnou hodnotu (jednolitá plocha)",
+                "text": "obraz obsahujéci jedinou možnou hodnotu (jednolitá plocha)",
                 "right": true
             }
         ]
     },
     {
-        "question": "Který obrázek ukazuje správnou rezistanci podle Bresenhamova algoritmu ?",
+        "question": "Který obrázek ukazuje správnou rasterizaci podle Bresenhamova algoritmu?",
         "image": "images/Bresenham.png",
         "answers": [
             {
@@ -1881,15 +1912,15 @@
         ]
     },
     {
-        "question": "Zdrojový kód LaTeXu může obsahovat pouze logické (strukturní) značky. ",
+        "question": "Zdrojový kód LaTeXu muže obsahovat pouze logické (strukturní) značky. ",
         "answers": [
             {
                 "text": "Pravda",
-                "right": true
+                "right": false
             },
             {
                 "text": "Nepravda",
-                "right": false
+                "right": true
             }
         ]
     },
@@ -1929,7 +1960,7 @@
         ]
     },
     {
-        "question": "Pro sazbu fyzikálních jednotek v české technické typografii používáme",
+        "question": "Pro sazbu fyzikálních jednotek v české technické typografii používáme: ",
         "answers": [
             {
                 "text": "tučnou kurzívu",
@@ -1950,49 +1981,7 @@
         ]
     },
     {
-        "question": "Který formát podporuje tzv. alfa-kanál ? (multiple choice) ",
-        "answers": [
-            {
-                "text": "GIF",
-                "right": false
-            },
-            {
-                "text": "JPEG2000",
-                "right": true
-            },
-            {
-                "text": "JPEG",
-                "right": false
-            },
-            {
-                "text": "PNG",
-                "right": true
-            }
-        ]
-    },
-    {
-        "question": "Která tvrzení jsou pravdivá?",
-        "answers": [
-            {
-                "text": "Bilineární převzorkování obrazu je rychlejší než kubické",
-                "right": true
-            },
-            {
-                "text": "Bilineární převzorkování obrazu je rychlejší než metodou nejbližšího souseda",
-                "right": false
-            },
-            {
-                "text": "Bilineární převzorkování obrazu je kvalitnější než bikubické",
-                "right": false
-            },
-            {
-                "text": "Převzorkování metodou nejbližšího souseda je nejkvalitnější z dnes známých metod",
-                "right": false
-            }
-        ]
-    },
-    {
-        "question": "Které z obrazu 2,3,4 mají shodný histogram s obrazem 1 (multiple choice)",
+        "question": "Které z obrazu 2,3,4 mají shodný histogram s obrazem 1(multiple)",
         "image": "images/histogram4.png",
         "answers": [
             {
@@ -2031,20 +2020,6 @@
         ]
     },
     {
-        "question": "Ve kterém slově bylo provedeno vyrovnání neboli kerning?",
-        "image": "images/vltava.png",
-        "answers": [
-            {
-                "text": "vpravo",
-                "right": false
-            },
-            {
-                "text": "vlevo",
-                "right": true
-            }
-        ]
-    },
-    {
         "question": "Světlo s teplotou 6500 Kelvinů je:",
         "answers": [
             {
@@ -2062,23 +2037,6 @@
         ]
     },
     {
-        "question": "Barevná teplota žárovky je kolem?",
-        "answers": [
-            {
-                "text": "8000 K",
-                "right": false
-            },
-            {
-                "text": "5500 K",
-                "right": false
-            },
-            {
-                "text": "3000 K",
-                "right": false
-            }
-        ]
-    },
-    {
         "question": "Lineární filtry zahrnují: dolní propust, horní propust, pásmovou propustnost, pásmovou zádrž:",
         "answers": [
             {
@@ -2090,9 +2048,9 @@
                 "right": false
             }
         ]
-    },
+    }, 
     {
-        "question": "Vyberte, které zkratky odpovídají technologiím použitých při designu a výrobě snímačů fotoaparátů: ",
+        "question": "Vyberte, které zkratky odpovídají technologiím použitých při designu a výrobě snímačů fotoaparátů: (multiple)",
         "answers": [
             {
                 "text": "CMOS",
@@ -2215,11 +2173,11 @@
                 "text": "Křídový - ... nejvíce",
                 "right": true
             },
-            {
+              {
                 "text": "Novinový - ... nejméně",
                 "right": true
             },
-            {
+              {
                 "text": "Kancelářský - ... středně",
                 "right": true
             }
@@ -2232,7 +2190,7 @@
                 "text": "fázovací článek",
                 "right": false
             },
-            {
+              {
                 "text": "horní propust",
                 "right": true
             },
@@ -2257,7 +2215,7 @@
                 "text": "3",
                 "right": false
             },
-            {
+              {
                 "text": "1",
                 "right": true
             },
@@ -2276,7 +2234,7 @@
         ]
     },
     {
-        "question": "Které z modelů jsou tzv. závislé na zařízení?(multiple choice)",
+        "question": "Které z modelů jsou tzv. závislé na zařízení?(multiple)",
         "answers": [
             {
                 "text": "LAB",
@@ -2301,7 +2259,7 @@
         ]
     },
     {
-        "question": "Ve kterých z uvedených textů má být správné použita pomlčka bez okolních mezer? (Nyní je všude spojovník).(multiple choice)",
+        "question": "Ve kterých z uvedených textů má být správné použita pomlčka bez okolních mezer? (Nyní je všude spojovník).(multiple)",
         "answers": [
             {
                 "text": "V letech 1809-1813",
@@ -2442,7 +2400,7 @@
         ]
     },
     {
-        "question": "Tzv. difúzní stan(multiple choice)",
+        "question": "Tzv. difúzní stan(multiple)",
         "answers": [
             {
                 "text": "výrazně napomáhá redukovat šum v obraze",
@@ -2467,7 +2425,7 @@
         "image": "images/filtr3.png",
         "answers": [
             {
-                "text": "a",
+                "text":"a",
                 "right": false
             },
             {
@@ -2591,7 +2549,7 @@
         ]
     },
     {
-        "question": "Vyberte pravdivá tvrzení o sRGB a Adobe RGB (multiple choice)",
+        "question": "Vyberte pravdivá tvrzení o sRGB a Adobe RGB",
         "answers": [
             {
                 "text": "Oba zahrnují více než 95 procent člověku viditelných barev.",
@@ -2611,7 +2569,7 @@
             }
         ]
     },
-    {
+{
         "question": "Barevná teplota žárovky je kolem",
         "answers": [
             {
