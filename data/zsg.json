@@ -1969,6 +1969,57 @@
                 "right": true
             }
         ]
+    },
+    {
+        "question": "Která tvrzení jsou pravdivá?",
+        "answers": [
+            {
+                "text": "Bilineární převzorkování obrazu je rychlejší než kubické",
+                "right": true
+            },
+            {
+                "text": "Bilineární převzorkování obrazu je rychlejší než metodou nejbližšího souseda",
+                "right": false
+            },
+            {
+                "text": "Bilineární převzorkování obrazu je kvalitnější než bikubické",
+                "right": false
+            },
+            {
+                "text": "Převzorkování metodou nejbližšího souseda je nejkvalitnější z dnes známých metod",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Ve kterém slově bylo provedeno vyrovnání neboli kerning?",
+        "image": "images/vltava.png",
+        "answers": [
+            {
+                "text": "vpravo",
+                "right": false
+            },
+            {
+                "text": "vlevo",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Barevná teplota žárovky je kolem?",
+        "answers": [
+            {
+                "text": "8000 K",
+                "right": false
+            },
+            {
+                "text": "5500 K",
+                "right": false
+            },
+             {
+                "text": "3000 K",
+                "right": true
+            }
+        ]
     }
-
 ]
