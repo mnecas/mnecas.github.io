@@ -285,7 +285,7 @@
         ]
     },
     {
-        "question": "Které slovo bude mít větší celkovou šířku při použití písma s kvalitním kerningme?",
+        "question": "Které slovo bude mít větší celkovou šířku při použití písma s kvalitním kerningem?",
         "answers": [
             {
                 "text": "V L T A V A",
@@ -298,7 +298,7 @@
         ]
     },
     {
-        "question": "Máme červený předmět. Jakou barvu jej budeme vnímat, okud na něj v tmaé místnosti posvítíme zelenžm světlem? (<i>předpokládejte, že barvy předmětu i světla jsou velmi syté - čisté</i>)",
+        "question": "Máme červený předmět. Jakou barvu jej budeme vnímat, okud na něj v tmavé místnosti posvítíme zeleným světlem? (<i>předpokládejte, že barvy předmětu i světla jsou velmi syté - čisté</i>)",
         "answers": [
             {
                 "text": "černou (předmět neuvidíme)",
@@ -953,7 +953,7 @@
         ]
     },
     {
-        "question": "Formát JPEF je při nastavení nejvyšší kvality (Q=100%)",
+        "question": "Formát JPEG je při nastavení nejvyšší kvality (Q=100%)",
         "answers": [
             {
                 "text": "neztrátový",
@@ -1457,7 +1457,7 @@
         "question": "Vyberte správnou možnost",
         "answers": [
             {
-                "text": "Bézierovy křivky jsou založeny na Bernsteinových poynomech",
+                "text": "Bézierovy křivky jsou založeny na Bernsteinových polynomech",
                 "right": true
             },
             {
@@ -1849,7 +1849,7 @@
         "question": "Predstavte si obraz šachovnice, kde jsou tedy na strídačku umístneny černé a bílé pixely. Dále si predstavme obrazový filtr rozmeru 3x3 pixely, který obsahuje všechny shodné hodnoty. Tento filtr aplikujeme (pomocí konvoluce) na obraz šachovnice. Výsledek filtrace je: (jedna odpoved sa nedala precitat) (multiple choice)",
         "answers": [
             {
-                "text": "obraz obsahujéci pouze 2 možné hodnoty",
+                "text": "obraz obsahujíci pouze 2 možné hodnoty (ak je otazka SINGLE CHOICE, TOTO je SPRAVNA odpoved; zdroj=2016/17)",
                 "right": false
             },
             {
@@ -1861,7 +1861,7 @@
                 "right": false
             },
             {
-                "text": "obraz obsahujéci jedinou možnou hodnotu (jednolitá plocha)",
+                "text": "obraz obsahujíci jedinou možnou hodnotu (jednolitá plocha)",
                 "right": true
             }
         ]
@@ -1881,7 +1881,7 @@
         ]
     },
     {
-        "question": "Zdrojový kód LaTeXu muže obsahovat pouze logické (strukturní) značky. ",
+        "question": "Zdrojový kód LaTeXu může obsahovat pouze logické (strukturní) značky. ",
         "answers": [
             {
                 "text": "Pravda",
@@ -1929,7 +1929,7 @@
         ]
     },
     {
-        "question": "Pro sadzbu fyzikálních jednotek v české technické typografii používáme: ",
+        "question": "Pro sazbu fyzikálních jednotek v české technické typografii používáme",
         "answers": [
             {
                 "text": "tučnou kurzívu",
@@ -2558,5 +2558,98 @@
                 "right": true
             }
         ]
+    },
+    {
+        "question": "Barevná teplota žárovky je kolem",
+        "answers": [
+            {
+                "text": "8000 K",
+                "right": false
+            },
+            {
+                "text": "5500 K",
+                "right": false
+            },
+            {
+                "text": "3000 K",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Na kterém řádku je tzv. nepravá kurzíva?",
+        "image": "images/neprava-kurziva.png",
+        "answers": [
+            {
+                "text": "2",
+                "right": false
+            },
+            {
+                "text": "3",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "U následujících barevných vzorků se mění",
+        "image": "images/barvy3.png",
+        "answers": [
+            {
+                "text": "sytost (S)",
+                "right": true
+            },
+            {
+                "text": "odstín (H)",
+                "right": false
+            },
+            {
+                "text": "sětlost (B)",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Ve kterém slově bylo provedeno vyrovnání neboli kerning?",
+        "image": "images/vltava.png",
+        "answers": [
+            {
+                "text": "vpravo",
+                "right": false
+            },
+            {
+                "text": "vlevo",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Pisomna skouska 1",
+        "image": "images/pisemna_cast_1.png",
+        "answers": [
+            {
+                "text": "test",
+                "right": false
+            },
+            {
+                "text": "test",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Pisomna skouska 2",
+        "image": "images/pisemna_cast_2.png",
+        "answers": [
+            {
+                "text": "test",
+                "right": false
+            },
+            {
+                "text": "test",
+                "right": true
+            }
+        ]
     }
+
+
 ]
