@@ -2676,7 +2676,7 @@
     },
     {
         "question": "Pisomna skouska 1",
-        "image": "images/pisemna_cast_1.png",
+        "image": "images/pisemna_cast_1.jpg",
         "answers": [
             {
                 "text": "test",
@@ -2690,7 +2690,7 @@
     },
     {
         "question": "Pisomna skouska 2",
-        "image": "images/pisemna_cast_2.png",
+        "image": "images/pisemna_cast_2.jpg",
         "answers": [
             {
                 "text": "test",
