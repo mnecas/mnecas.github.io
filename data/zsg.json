@@ -667,7 +667,7 @@
         ]
     },
     {
-        "question": "Vyberte pravdivá tvrzení: <i>Hloubka ostrosti vzroste, jestliže...</i>",
+        "question": "Vyberte pravdivá tvrzení: <i>Hloubka ostrosti vzroste, jestliže...</i> (multiple choice)",
         "answers": [
             {
                 "text": "použijeme snímaš s malou plochou (kompakt)",
@@ -970,7 +970,7 @@
         ]
     },
     {
-        "question": "Jaké úpravě obrazu odpovída vyobrazené nastavení Křivek?",
+        "question": "Jaké úpravě obrazu odpovída vyobrazené nastavení Křivek? (multiple choice)",
         "image": "images/krivky2.png",
         "answers": [
             {
@@ -1034,7 +1034,7 @@
         ]
     },
     {
-        "question": "Čím větší je fyzicky snímč fotoaparátu, tím",
+        "question": "Čím větší je fyzicky snímč fotoaparátu, tím (multiple choice)",
         "answers": [
             {
                 "text": "větší musí být rozměr optické soustavy",
@@ -1090,7 +1090,7 @@
         ]
     },
     {
-        "question": "Histogram vpravo vznikl z histogramu vlevo (mutliple choice)",
+        "question": "Histogram vpravo vznikl z histogramu vlevo (multiple choice)",
         "answers": [
             {
                 "text": "redukcí počtu barev",
@@ -1238,7 +1238,7 @@
         ]
     },
     {
-        "question": "Hloubka ostrosti vzroste, jestliže",
+        "question": "Hloubka ostrosti vzroste, jestliže (multiple choice)",
         "answers": [
             {
                 "text": "snížíme clonové číslo",
@@ -1707,7 +1707,7 @@
     },
     {
         "question": "Rovnice na obrázku vyjadřuje pro <i>t</i> z intervalu [0,1]... (multiple choice)",
-        "image":"images/rovnice.png",
+        "image": "images/rovnice.png",
         "answers": [
             {
                 "text": "parabolu/kvadriku",
@@ -1812,7 +1812,7 @@
         ]
     },
     {
-        "question": "Formát GIF umožňuje ve srovnání s PNG-8",
+        "question": "Formát GIF umožňuje ve srovnání s PNG-8 (multiple choice)",
         "answers": [
             {
                 "text": "více stupňů prúhlednosti",
@@ -1846,7 +1846,7 @@
         ]
     },
     {
-        "question": "Predstavte si obraz šachovnice, kde jsou tedy na strídačku umístneny černé a bílé pixely. Dále si predstavme obrazový filtr rozmeru 3x3 pixely, který obsahuje všechny shodné hodnoty. Tento filtr aplikujeme (pomocí konvoluce) na obraz šachovnice. Výsledek filtrace je: (jedna odpoved sa nedala precitat)",
+        "question": "Predstavte si obraz šachovnice, kde jsou tedy na strídačku umístneny černé a bílé pixely. Dále si predstavme obrazový filtr rozmeru 3x3 pixely, který obsahuje všechny shodné hodnoty. Tento filtr aplikujeme (pomocí konvoluce) na obraz šachovnice. Výsledek filtrace je: (jedna odpoved sa nedala precitat) (multiple choice)",
         "answers": [
             {
                 "text": "obraz obsahujéci pouze 2 možné hodnoty",
@@ -1987,6 +1987,44 @@
             },
             {
                 "text": "Převzorkování metodou nejbližšího souseda je nejkvalitnější z dnes známých metod",
+            }
+        ]
+    },
+    {
+        "question": "Které z obrazu 2,3,4 mají shodný histogram s obrazem 1 (multiple choice)",
+        "image": "images/histogram4.png",
+        "answers": [
+            {
+                "text": "4",
+                "right": true
+            },
+            {
+                "text": "2",
+                "right": true
+            },
+            {
+                "text": "3",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Zaznačte pravdivá tvrzení o slovníkovém kódování",
+        "answers": [
+            {
+                "text": "Nevýhoda slovníkového kódování je nutnost přenosu samotného slovníku",
+                "right": false
+            },
+            {
+                "text": "LZW je nástupcem staršího LZ77",
+                "right": false
+            },
+            {
+                "text": "LZW je možno využít i v obrazovém formátu TIFF",
+                "right": true
+            },
+            {
+                "text": "Typickým představitelem je Huffmanovo kódování",
                 "right": false
             }
         ]
@@ -2006,6 +2044,23 @@
         ]
     },
     {
+        "question": "Světlo s teplotou 6500 Kelvinů je:",
+        "answers": [
+            {
+                "text": "oproti běžnému dennímu světlu teplejší",
+                "right": false
+            },
+            {
+                "text": "výchozí bílou barvou pro tiskové aplikace",
+                "right": false
+            },
+            {
+                "text": "výchozí bílou barvou pro sRGB",
+                "right": true
+            }
+        ]
+    },
+    {
         "question": "Barevná teplota žárovky je kolem?",
         "answers": [
             {
@@ -2018,6 +2073,539 @@
             },
              {
                 "text": "3000 K",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Lineární filtry zahrnují: dolní propust, horní propust, pásmovou propustnost, pásmovou zádrž:",
+        "answers": [
+            {
+                "text": "Pravda",
+                "right": true
+            },
+            {
+                "text": "Nepravda",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Vyberte, které zkratky odpovídají technologiím použitých při designu a výrobě snímačů fotoaparátů: ",
+        "answers": [
+            {
+                "text": "CMOS",
+                "right": true
+            },
+            {
+                "text": "CCD",
+                "right": true
+            },
+            {
+                "text": "Foveon",
+                "right": true
+            },
+            {
+                "text": "CRT",
+                "right": false
+            },
+            {
+                "text": "LCD",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "K jak velké komprimaci dojde u JPEG v první fázi (tj. podvzorkování barvonosných složek 4:2:0), pokud na vstupu byl obraz ve stupních šedi",
+        "answers": [
+            {
+                "text": "na 50 procent",
+                "right": false
+            },
+            {
+                "text": "kodér není určen pro šedotónové obrázky",
+                "right": false
+            },
+            {
+                "text": "na 75 procent",
+                "right": false
+            },
+            {
+                "text": "nedojde k žádné úspoře",
+                "right": true
+            },
+            {
+                "text": "na 25 procent",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Konvoluce obrazu s 2D-Diracovým impolzem vytvoří",
+        "answers": [
+            {
+                "text": "obraz shodný s výchozím až na posunutí",
+                "right": false
+            },
+            {
+                "text": "obraz, kde na hranách se objeví halo-efekt",
+                "right": false
+            },
+            {
+                "text": "50% šedou plochu",
+                "right": false
+            },
+            {
+                "text": "obraz shodný s výchozím",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Která metoda přepočtu gamutů je univerzální volbou v případě tisku fotografií",
+        "answers": [
+            {
+                "text": "relativní kolorimetrická",
+                "right": false
+            },
+            {
+                "text": "sytostní",
+                "right": false
+            },
+            {
+                "text": "absolutní kolorimetrická",
+                "right": false
+            },
+            {
+                "text": "procentuální",
+                "right": false
+            },
+            {
+                "text": "perceptuální",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Označte správná tvrzení: Dosud Čím větší je fyzicky snímač fotoaparátu, tím",
+        "answers": [
+            {
+                "text": "větší musí být rozměr optické soupravy",
+                "right": true
+            },
+            {
+                "text": "menší(tj. horší) je hodnota odstupu signálu od šumu (SNR)",
+                "right": false
+            },
+            {
+                "text": "větší může být dynamika snímaného signálu",
+                "right": true
+            },
+            {
+                "text": "menší musí být rozměr optické soustavy",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Přiřaďte správnou míru klížení, která je použita při výrobě daného druhu papíru (vše dobře naučit se přiřadit hodnoty za tečkama)",
+        "answers": [
+            {
+                "text": "Křídový - ... nejvíce",
+                "right": true
+            },
+            {
+                "text": "Novinový - ... nejméně",
+                "right": true
+            },
+            {
+                "text": "Kancelářský - ... středně",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Pro účel detekce hran v obrazu použijeme filtr typu",
+        "answers": [
+            {
+                "text": "fázovací článek",
+                "right": false
+            },
+            {
+                "text": "horní propust",
+                "right": true
+            },
+            {
+                "text": "hřebenový filtr",
+                "right": false
+            },
+            {
+                "text": "pásmová propust",
+                "right": false
+            },
+            {
+                "text": "dolní propust",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Pro vytvoření úsečky (jako vektorového objektu) je potřeba polynom jakého nejmenšího řádu?",
+        "answers": [
+            {
+                "text": "3",
+                "right": false
+            },
+            {
+                "text": "1",
+                "right": true
+            },
+            {
+                "text": "4",
+                "right": false
+            },
+            {
+                "text": "2",
+                "right": false
+            },
+            {
+                "text": "0",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Které z modelů jsou tzv. závislé na zařízení?(multiple choice)",
+        "answers": [
+            {
+                "text": "LAB",
+                "right": false
+            },
+            {
+                "text": "CMY(K)",
+                "right": true
+            },
+            {
+                "text": "HSB",
+                "right": true
+            },
+            {
+                "text": "HLS",
+                "right": true
+            },
+            {
+                "text": "RGB",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Ve kterých z uvedených textů má být správné použita pomlčka bez okolních mezer? (Nyní je všude spojovník).(multiple choice)",
+        "answers": [
+            {
+                "text": "V letech 1809-1813",
+                "right": true
+            },
+            {
+                "text": "Spočítejte rozdíl 13-9 a zapište",
+                "right": false
+            },
+            {
+                "text": "Marie Curie-Sklodowská",
+                "right": false
+            },
+            {
+                "text": "Rozhraní vzduch-kov",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Kolik pixelů obrazu ovlivní změna jednoho jeho Fourierova koeficientu?",
+        "answers": [
+            {
+                "text": "Všechny",
+                "right": true
+            },
+            {
+                "text": "Dva",
+                "right": false
+            },
+            {
+                "text": "Nelze obecně říct",
+                "right": false
+            },
+            {
+                "text": "Polovinu",
+                "right": false
+            },
+            {
+                "text": "Jeden",
+                "right": false
+            },
+            {
+                "text": "Žádný",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Fotografie pořízená venku za slunečného dne, ale při nastavení fotoaparátu „žárovka“ bude mít barevný nádech",
+        "answers": [
+            {
+                "text": "do modra",
+                "right": true
+            },
+            {
+                "text": "do červena",
+                "right": false
+            },
+            {
+                "text": "bude bez nádechu",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Jaká má být doplněna číselná hodnota, aby tento filtr zachoval průměrnou světlost obrázku?",
+        "image": "images/hodnota.png",
+        "answers": [
+            {
+                "text": "-1",
+                "right": false
+            },
+            {
+                "text": "0",
+                "right": false
+            },
+            {
+                "text": "1",
+                "right": false
+            },
+            {
+                "text": "Nelze; tento filtr vždy obrázek zesvětlí",
+                "right": true
+            },
+            {
+                "text": "Nelze; tento filtr vždy obrázek ztmaví",
+                "right": false
+            },
+            {
+                "text": "-8",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Jakoukoliv Bézierovu křivku",
+        "answers": [
+            {
+                "text": "nelze obecně rozdělit na dvě nové křivky",
+                "right": false
+            },
+            {
+                "text": "lze rozdělit na dvě nové křivky stejného řádu a původní tvar přitom může zůstat zachován",
+                "right": true
+            },
+            {
+                "text": "lze rozdělit na dvě nové křivky stejného řádu, ale tvar křivky se bohužel změní.",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Která z fotografií byla pořízena s nižším clonovým číslem?",
+        "image": "images/clona.png",
+        "answers": [
+            {
+                "text": "Vpravo",
+                "right": false
+            },
+            {
+                "text": "Vlevo",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Kolorimetr je zařízení, které oproti spektrofotometru měří barvu přesněji.",
+        "answers": [
+            {
+                "text": "Pravda",
+                "right": false
+            },
+            {
+                "text": "Nepravda",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Tzv. difúzní stan(multiple choice)",
+        "answers": [
+            {
+                "text": "výrazně napomáhá redukovat šum v obraze",
+                "right": true
+            },
+            {
+                "text": "slouží k ideálnímu prostorovému rozptýlení vývojky",
+                "right": false
+            },
+            {
+                "text": "zmenšuje vadu vinětace objektivu tím, že světlo rovnoměrně rozptýlí po celé ploše obrazu",
+                "right": false
+            },
+            {
+                "text": "slouží k rozptýlení světla dopadajícího na fotografovaný objekt",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Určete, který z uvedených filtrů vyprodukoval tento obrázek:",
+        "image": "images/filtr3.png",
+        "answers": [
+            {
+                "text": "a",
+                "right": false
+            },
+            {
+                "text": "b",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Pojem barevná separace (případně separace barev) znamená:",
+        "image": "images/filtr3.png",
+        "answers": [
+            {
+                "text": "rozklad RGB obrázku na komponenty R, G a B",
+                "right": false
+            },
+            {
+                "text": "výběr barev do palety na základě barev pixelů v obrázku",
+                "right": false
+            },
+            {
+                "text": "výběr barev R, G, B při obarvování šedotónového obrázku",
+                "right": false
+            },
+            {
+                "text": "rozklad RGB obrázku na komponenty C,M,Y a K",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Při doostřování obrazu pomocí techniky Unsharp mask mize docházet k efektu:",
+        "answers": [
+            {
+                "text": "Ztráta barevnosti",
+                "right": false
+            },
+            {
+                "text": "Moiré",
+                "right": false
+            },
+            {
+                "text": "Aliasing",
+                "right": false
+            },
+            {
+                "text": "Rozostření (blur)",
+                "right": false
+            },
+            {
+                "text": "Hallo",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Kolik řídících bodů potřebujeme pro dvě Bézierovy kubiky, které jsou vzájemně napojeny?",
+        "answers": [
+            {
+                "text": "konečným počtem řídících bodů nelze napojení zajistit",
+                "right": false
+            },
+            {
+                "text": "5",
+                "right": false
+            },
+            {
+                "text": "6",
+                "right": false
+            },
+            {
+                "text": "8",
+                "right": false
+            },
+            {
+                "text": "7",
+                "right": true
+            }
+        ]
+    },
+    {
+        "question": "Inspekcí tří histogramů R, G, B je vždy možné odhalit, zda došlo k tzv. přepalu (saturaci) obrazu.",
+        "answers": [
+            {
+                "text": "Pravda",
+                "right": true
+            },
+            {
+                "text": "Nepravda",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Která barva je doplňková k černé?",
+        "answers": [
+            {
+                "text": "žádná, protože černá není barva %",
+                "right": false
+            },
+            {
+                "text": "bílá",
+                "right": true
+            },
+            {
+                "text": "červená (R)",
+                "right": false
+            },
+            {
+                "text": "modrá (B)",
+                "right": false
+            },
+            {
+                "text": "azurová (C)",
+                "right": false
+            },
+            {
+                "text": "zelená (G)",
+                "right": false
+            }
+        ]
+    },
+    {
+        "question": "Vyberte pravdivá tvrzení o sRGB a Adobe RGB (multiple choice)",
+        "answers": [
+            {
+                "text": "Oba zahrnují více než 95 procent člověku viditelných barev.",
+                "right": false
+            },
+            {
+                "text": "AdobeRGB rozšiřuje gamut sRGB hlavně v oblasti tmavě modrých barev.",
+                "right": false
+            },
+            {
+                "text": "sRGB není příliš vhodný pro profesionální tisk",
+                "right": true
+            },
+            {
+                "text": "Oba jsou barevnými prostory, nikoliv modely",
                 "right": true
             }
         ]
