@@ -102,7 +102,7 @@
         ]
     },
     {
-        "question": "Jaké úpravě obrazu odpovída vyobrazené nastavení Křivek?",
+        "question": "Jaké úpravě obrazu odpovída vyobrazené nastavení Křivek? (multiple choice)",
         "image": "images/krivky.png",
         "answers": [
             {
@@ -298,7 +298,7 @@
         ]
     },
     {
-        "question": "Máme červený předmět. Jakou barvu jej budeme vnímat, okud na něj v tmaé místnosti posvítíme zelenžm světlem? (<i>předpokládejte, že barvy předmětu i světla jsou velmi syté - čisté</i>)",
+        "question": "Máme červený předmět. Jakou barvu jej budeme vnímat, pokud na něj v tmavé místnosti posvítíme zeleným světlem? (<i>předpokládejte, že barvy předmětu i světla jsou velmi syté - čisté</i>)",
         "answers": [
             {
                 "text": "černou (předmět neuvidíme)",
@@ -680,7 +680,7 @@
         ]
     },
     {
-        "question": "Vyberte pravdivá tvrzení: <i>Hloubka ostrosti vzroste, jestliže...</i>",
+        "question": "Vyberte pravdivá tvrzení: <i>Hloubka ostrosti vzroste, jestliže...</i> (multiple choice)",
         "answers": [
             {
                 "text": "použijeme snímač s malou plochou (kompakt)",
@@ -984,7 +984,7 @@
         ]
     },
     {
-        "question": "Formát JPEF je při nastavení nejvyšší kvality (Q=100%)",
+        "question": "Formát JPEG je při nastavení nejvyšší kvality (Q=100%)",
         "answers": [
             {
                 "text": "neztrátový",
@@ -1065,7 +1065,7 @@
         ]
     },
     {
-        "question": "Čím větší je fyzicky snímč fotoaparátu, tím",
+        "question": "Čím větší je fyzicky snímč fotoaparátu, tím (multiple choice)",
         "answers": [
             {
                 "text": "větší musí být rozměr optické soustavy",
@@ -1122,6 +1122,7 @@
     },
     {
         "question": "Histogram vpravo vznikl z histogramu vlevo (mutliple choice)",
+        "image": "images/histogram2.png",
         "answers": [
             {
                 "text": "redukcí počtu barev",
@@ -1210,7 +1211,8 @@
         ]
     },
     {
-        "question": "Při použití kterého typu písma udou následujíc řetézce shodně dlouhé?",
+        "question": "Při použití kterého typu písma budou následujíc řetézce shodně dlouhé?",
+        "image":"images/vltava.png",
         "answers": [
             {
                 "text": "neproporcionální písmo",
@@ -1269,7 +1271,7 @@
         ]
     },
     {
-        "question": "Hloubka ostrosti vzroste, jestliže",
+        "question": "Hloubka ostrosti vzroste, jestliže (multiple choice)",
         "answers": [
             {
                 "text": "snížíme clonové číslo",
@@ -1532,7 +1534,7 @@
     },
     {
         "question": "U následujících barevných vzorků se mění",
-        "image": "images/barvy2.png",
+        "image": "images/barvy3.png",
         "answers": [
             {
                 "text": "sytost (S)",
@@ -1822,7 +1824,7 @@
         ]
     },
     {
-        "question": "Bézierova kubika je určena (nejsem si jistý s odpovědí)",
+        "question": "Bézierova kubika je určena",
         "answers": [
             {
                 "text": "4 řídicími body",
@@ -1843,7 +1845,7 @@
         ]
     },
     {
-        "question": "Formát GIF umožňuje ve srovnání s PNG-8",
+        "question": "Formát GIF umožňuje ve srovnání s PNG-8 (multiple choice)",
         "answers": [
             {
                 "text": "více stupňů prúhlednosti",
@@ -2104,7 +2106,7 @@
         "answers": [
             {
                 "text": "obraz shodný s výchozím až na posunutí",
-                "right": false
+                "right": true
             },
             {
                 "text": "obraz, kde na hranách se objeví halo-efekt",
@@ -2404,11 +2406,11 @@
         "answers": [
             {
                 "text": "výrazně napomáhá redukovat šum v obraze",
-                "right": true
+                "right": false
             },
             {
                 "text": "slouží k ideálnímu prostorovému rozptýlení vývojky",
-                "right": false
+                "right": true
             },
             {
                 "text": "zmenšuje vadu vinětace objektivu tím, že světlo rovnoměrně rozptýlí po celé ploše obrazu",
@@ -2436,7 +2438,6 @@
     },
     {
         "question": "Pojem barevná separace (případně separace barev) znamená:",
-        "image": "images/filtr3.png",
         "answers": [
             {
                 "text": "rozklad RGB obrázku na komponenty R, G a B",
@@ -2457,7 +2458,7 @@
         ]
     },
     {
-        "question": "Při doostřování obrazu pomocí techniky Unsharp mask mize docházet k efektu:",
+        "question": "Při doostřování obrazu pomocí techniky Unsharp mask může docházet k efektu:",
         "answers": [
             {
                 "text": "Ztráta barevnosti",
@@ -2549,7 +2550,7 @@
         ]
     },
     {
-        "question": "Vyberte pravdivá tvrzení o sRGB a Adobe RGB",
+        "question": "Vyberte pravdivá tvrzení o sRGB a Adobe RGB (multiple choice)",
         "answers": [
             {
                 "text": "Oba zahrnují více než 95 procent člověku viditelných barev.",
