@@ -604,15 +604,15 @@
           },
           {
              "text": "Při registraci s autentizací se využívá algoritmus MD5",
-             "right": false
-          },
-          {
-             "text": "Při registraci s autentizací si dva koncové body mezi sebou vymění 3 zprávy",
              "right": true
           },
           {
-             "text": "Při registraci s autentizací se v jedné ze zpráv posílá uživatelské jménu k účtu SIP v čitelné podobě",
+             "text": "Při registraci s autentizací si dva koncové body mezi sebou vymění 3 zprávy",
              "right": false
+          },
+          {
+             "text": "Při registraci s autentizací se v jedné ze zpráv posílá uživatelské jménu k účtu SIP v čitelné podobě",
+             "right": true
           },
           {
              "text": "Registrace probíhá vždy přes B2BUA",
