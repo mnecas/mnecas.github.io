@@ -166,7 +166,7 @@
           },
           {
              "text": "QoE můžeme měřit metodou PSNR ",
-             "right": true
+             "right": false
           },
           {
              "text": "U QoE měříme ztrátovost, propustnost a zpoždění paketů ",
